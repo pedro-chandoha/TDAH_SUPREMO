@@ -4,4 +4,4 @@ var paulo = document.querySelector('#paciente1');
 var peso = paulo.querySelector('.info-peso').textContent;
 var altura = paulo.querySelector('.info-altura').textContent;
 var imc = peso / (altura*altura);
-document.querySelector('.info-imc').textContent = imc;
+paulo.querySelector('.info-imc').textContent = imc;
